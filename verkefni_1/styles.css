@@ -1,0 +1,29 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 50em;
+    border: 2px solid darkgreen;
+    margin: 1em auto;
+    padding: 1em;
+}
+h1 {
+    color: red;
+    font-size: 2em;
+}
+strong {
+    color: blue
+}
+.imagine {
+    color: darkred
+}
+
+.darkblue {
+    color: darkblue
+}
+
+.darkgreen {
+    color: darkgreen
+}
+
+hr {
+    color:darkgreen
+}
