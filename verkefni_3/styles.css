@@ -1,0 +1,11 @@
+* {
+        box-sizing: border-box; /*padding og border gildi leggjast inní heildarbreidd * allra taga í html skjalinu */
+}
+
+body {
+    border: 2px solid blue;
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 50em;
+}
+
