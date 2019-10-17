@@ -8,7 +8,7 @@
     * [Verkefni 2.3](verkefni_2/verkefni-23)
     * [Verkefni 2.4](verkefni_2/verkefni-24)
 3. [Verkefni 3 - Skipulag](verkefni_3/)
-    * [Verkefni 3 - Forsíða](verkefni_3/Forsida/index.html)
+    * [Verkefni 3 - Forsíða](verkefni_3/Forsida)
     * [Verkefni 3 - Vatn](verkefni_3/Vatn)
     * [Verkefni 3 - Gróður](verkefni_3/Grodur)
     * [Verkefni 3 - Litir](verkefni_3/Litir)
