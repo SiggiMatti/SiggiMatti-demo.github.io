@@ -9,4 +9,8 @@
     * [Verkefni 2.4](verkefni_2/verkefni-24)
 3. [Verkefni 3 - Skipulag](verkefni_3/)
     * [Verkefni 3 - Forsíða](verkefni_3/Forsida)
+    * [Verkefni 3 - Vatn](verkefni_3/Vatn)
+    * [Verkefni 3 - Gróður](verkefni_3/Grodur)
+    * [Verkefni 3 - Litir](verkefni_3/Litir)
+    * [Verkefni 3 - Verslun](verkefni_3/Verslun)
 4. [Verkefni 4 - uppsetning]()
