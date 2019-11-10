@@ -8,69 +8,84 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body> 
-    <header class="container headcolor col-2">
-      <div>
+    <header class="container headcolor col-3 test">
+      <section class="svg">
+        <img width="100" height="100" src="images/coding (1).svg">
+      </section>
+      <div class="alignC">
         <h1>
-          Vefhönnun VEFÞ1VG
+          Sigurður Matthías
         </h1>
       </div>
-      <section class="container">
           <nav class="innermenu"> 
-            <a href="#Læknisskoðun">Læknisskoðun</a> <!-- #læknis = tengi á id -->
-            <a href="#Óskirnar">Óskirnar 3</a>
-            <a href="#Adam">Adam og ...</a>
-            <a href="#Alnæmi">Alnæmisfaraldurinn</a>
-            <a href="#Jólakveðja">Jólakveðja</a>
-            <a href="#Gefoss">Gef oss í dag vort daglegt ... </a>
+            <a href="#Vefþ">VEFÞ1VG05</a>
+            <a href="#Um mig">Um mig</a>
+            <a href="#Áhugamál">Áhugamál</a>
+            <a href="#Verkefni">Verkefni</a>
           </nav> 
-      </section>
-      <div>
-        <p class="verkefni"></p>
-        <nav class="topnav">
-        </nav>
       </div>
     </header>
-    <section class="bground2"> 
-      <main class="container col-2 gap-4">
-        <section>
-          <h1>Um mig</h1>
-          <p>Ég heti Sigurður Matthías Bjarnason, ég er 16 ára og er í Tækniskólanum á tölvubraut. Ég á heima í Kópavoginum og hef átt heima þar í u.þ.b. sex ár. Áður er að ég flutti í Kópavoginn átti ég heima í Grafarholti frá því að ég fæddist. </p>       
-          <p>Þegar skjár er minni en 60em (960px) þá á textinn í vefsíðunni að dragast saman og vera sýnilegur, prófaðu að nota stílbragðið <em><strong>"max-width".</strong></em></p>
-          <img src="" alt="Mynd" style="width:500px;height:100%;">
+    <div class="bground2">
+      <section class=""> 
+        <main class="container col-2 gap-4" id="Um mig"> <!-- Ég skipti sectionunum í tvo hluta-->
+          <section>
+            <h1>Um mig</h1>
+            <p>Ég heti Sigurður Matthías Bjarnason, ég er 16 ára og er í Tækniskólanum á tölvubraut. Ég á heima í Kópavoginum og hef átt heima þar í u.þ.b. sex ár. Áður en að ég flutti í Kópavoginn átti ég heima í Grafarholti frá því að ég fæddist. Áður en ég fór í Tækniskólann var ég í Hörðuvallaskóla og ákvað að fara í Tækniskólann á tölvubraut eftir hann því að ég hef áhuga á flestu sem að tengist tölvum. Það sem að kom mér inn í tölvur var þegar að ég var lítill fékk ég fyrstu leikjatölvuna mína PlayStation 2. Ég hlusta ágætlega mikið á tónlist til dæmis þegar að ég er á leiðinni í skólann eða þegar að ég er í vinnunni. Ég hlusta oft á gömul lög og hér er eiit sem að mér finnst skemmtilegt:</p>
+            <audio controls>
+                <source src="audio/lag.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+              </audio>    
+          </section>
+          <section> 
+            <div class="col-2 gap-4 pad"> <!-- Ég skipti einu section sem ég skipti áður og skipti því aftur í tvo hluta-->
+              <section>
+                <p>Ég er með brúnt hár, blá augu og er u.þ.b. 1.80 á hæð. Skemmtileg staðreynd: Þegar að ég var lítill um það bil 8 ára datt ég úr rólu og lenti beint á enninu sem að lét mig vera með rauðan blett á enninu í mörg ár en hann var bara að fara nýlega.</p>
+              </section>
+              <section>
+                <p>Mynd af mér: </p>
+                <p><img src="images/mynd_af_mer.png"> </p>
+              </section>
+            </div>
+          </section>
+        </main>
+      </section>
+      <section class=""> 
+          <main class="container col-2 gap-4" id="Áhugamál"> <!--Ég skipti sectionunum í tvo hluta-->
+              <section>
+                <h1>Áhugamál</h1>
+                <p>Ég hef eiginlega ekkert áhugamál en ef ég þyrfti að velja eitthvað eitt þá myndi ég örugglega velja tölvur yfir höfuð. Frá því að ég var lítill hef ég spilað tölvuleiki og hef átt allar playstation tölvurnar. Þessi áhugi hefur komið mér inn í hvernig maður byggir tölvur og hvaða hlutir í tölvunni gera hvað. Ég byggði fyrstu tölvuna mína á þessu ári og ekki er það aðeins miklu ódýrara að kaupa alla hlutina sjálfur heldur er það líka skemmtileg upplifun að tengja allt sjálfur í tölvukassannum. Að byggja tölvu sjálfur passar líka að tölvan þín passar fyrir þig og hvaða leiki þú spilar.</p>       
+              </section>
+              <section class="pad">
+                <p>Mér finnst líka mjög gaman að spila leik sem að heitir League of Legends. Leikurinn gengur aðallega út á það að vinna saman sem lið. Það eru 5 keppendur í báðum liðum og hver keppandi hefur eitt hlutverk sem er að fara í eitt "lane" sem að eru þrjár. Keppendurnir skipta sér tveir í bot lane og einn í mid lane, top lane og jungle. ég gæti útskýrt allt í leiknum en það myndi taka marga daga svo ég hafði útskýringuna mjög einfalda.</p><!--Þegar að ég var að kanna hvaða partar í tölvuna mína mundu virka best fyrir mig og eru á besta verðinu byrjaði ég smám saman að hafa meira áhuga á hlutunum. Eftir að hafa kannað alla hlutina veit ég hvað allir þeir gera,hvernig þeir vinna með hinum hlutunum í tölvunni, hver er bestur fyrir hvaða verð og allskonar þannig.-->
+                <p><img width="390" height="200" src="images/league-of-legends.jpg"></p>
+              </section>
+              <section>
+               <p>Annað áhugamál er að horfa á allskonar þætti t.d. á Netflix sem að er gaman en mér finnst líka gaman að horfa á sum "Anime" sem að eru teiknymyndaþættir frá Japan og ég horfi á það bara því að það er allt öðruvísi en venjulegir þættir því að þetta er teiknað sem að opnar marga möguleika. Þættir sem að mér finnst skemmtilegir eru JoJo´s Bizarre Adventure bara því að þeir eru svo skrýtnir og hafa líka mjög skemmtilegan söguþráð og karaktera. JoJo hefur 8 parta en bara 5 sem að hafa verið teiknaðir fyrir sjónvarp. Hér hliðina á eitt skrýtið atriði úr þáttunum sem að sýnir hversu skrýtnir þeir eru.</p>
+              </section>
+              <section>
+                <iframe width="540" height="295" src="https://www.youtube.com/embed/AQx_KMoCgJU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Youtube vídjó-->
+                <img width="540" height="90" src="images/jojo.jpg">
+              </section>
+          </main>
         </section>
-        <section> 
-          <p>Þetta vefdæmi er að hluta til byggt á verkefnadæmi á vef Shayhowe,<em> Gradient backrounds</em> en þar sem hann hefur ekki uppfært vefinn notar hvorki flexbox eða grid lausnir er ekki hægt að fara eftir hans uppsetningu </p>
-          <blockquote>Hér er bakgrunnurinn hvítur með 70% gagnsæi <i>(e. transparency).</i><br>Til að skoða kóðann í vafra þá skaltu opna vafra (Chrome) og smella á &#9776; táknið hægra megin í valslánni og velja <em>"Developers tools"</em> úr fellilistanum.<br> Eða bara smella á takkann <b>F12</b> á lyklaborðinu, "Inspectorinn" virkar svipað í Firefox og Chrome</blockquote></p>
-          <audio controls>
-              <source src="audio/jol.mp3" type="audio/mpeg">
-              Your browser does not support the audio tag.
-          </audio>
-        </section>
-        <section>
-          <h3>Video</h3>
-          <iframe width="100%" height="300" src="https://www.youtube.com/embed/07d2dXHYb94" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-        <section>
-          <h3>Kort frá Google</h3>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1740.3121415120258!2d-21.904848284054037!3d64.13906748359182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d674cc84500001%3A0x16719bf129fa31a7!2zVMOma25pc2vDs2xpbm4gLSBIw6F0ZWlnc3ZlZ3Vy!5e0!3m2!1sen!2sis!4v1572874270947!5m2!1sen!2sis" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </section>
-      </main>
-    </section>
-    <footer class="container footcolor col-3">
+    </div>
+    <footer class="container footcolor col-3" id="Verkefni"> <!-- Nokkrir classar sem að fara um allann footerinn til að hann líti vel út-->
         <nav class="h4color">
-          <h4>DL listi </h4>
+          <h4>Upplýsingar</h4>
           <dl><!--Description list, nafn tölvupóstur og áfangi-->
-            <dt>Nafn:</dt>
-              <dd>Sigurður Mattías Bjarnason</dd>
-            <dt>Tölvupóstur:</dt>
+            <dt>Netfang:</dt>
               <dd>sigurdurmatthias@gmail.com</dd>
-            <dt>Áfangi:</dt>
-              <dd>VEFÞ1VG</dd>
+            <dt>Símanúmer:</dt>
+              <dd>8449192</dd>
+            <dt>Heimilisfang</dt>
+              <dd>Flesjakór 22</dd>
+            <dt>Staðsetning á korti:</dt>
+              <dd><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1740.3121415120258!2d-21.904848284054037!3d64.13906748359182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d674cc84500001%3A0x16719bf129fa31a7!2zVMOma25pc2vDs2xpbm4gLSBIw6F0ZWlnc3ZlZ3Vy!5e0!3m2!1sen!2sis!4v1572874270947!5m2!1sen!2sis" width="50%" height="100" frameborder="0" style="border:0;" allowfullscreen=""></iframe></dd>
           </dl>
 
         </nav>
         <nav class="h4color">
-          <h4>Innri tenglar</h4> <!-- Relative links -->
+          <h4>Verkefni</h4> <!-- Relative links -->
           <ul class="footnav"><!-- inner links -->
             <li><a href="/verkefni_1/">Verkefni 1</a></li>
             <li><a href="/verkefni_2/verkefni-21/">Verkefni 2.1</a></li>
@@ -82,19 +97,19 @@
           </ul>
         </nav>
         <nav class="h4color">
-          <h4>Ytri tenglar</h4><!-- Absolute links -->
+          <h4>Samfélagsmiðlar</h4><!-- Absolute links -->
           <ul class="footnav"> <!-- Absolute links "target _blank" opnar nýjan glugga í vafranum !aðeins notað þegar vísað er út úr eigin vef-->
             <li> 
-              <a href="https://vefgrunnur.github.io/bjargir.html" target="_blank" title="Vefgrunnur">Vefgrunnur</a>        
+              <a href="https://twitter.com/SiggiMatti" target="_blank" title="Twitter">Twitter</a>        
             </li>  
             <li>
-              <a href="https://www.stjornarradid.is/rikisstjorn/skipan-rikisstjornar/"  target="_blank" title="Vefgrunnur">Ríkisstjórn Íslands</a>
+              <a href="https://www.facebook.com/sigurdurmatthias"  target="_blank" title="Facebook">Facebook</a>
             </li>
             <li>
-              <a href="https://www.whitehouse.gov/" target="_blank" title="Hvíta Húsið">Hvíta Húsið</a> 
+              <a href="https://www.reddit.com/user/SiggiMatti" target="_blank" title="Reddit">Reddit</a> 
             </li>
             <li>
-                <a href="https://github.com/SiggiMatti/SiggiMatti.github.io" target="_blank" title="Github Síðan Mín">Github Síðan Mín</a> 
+                <a href="https://github.com/SiggiMatti/SiggiMatti.github.io" target="_blank" title="Github">Github</a> 
             </li>
         </nav>
     </footer>
