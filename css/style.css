@@ -12,7 +12,7 @@ body {
 }
 h1 {
     font-weight: 300;
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 
 blockquote {
@@ -28,12 +28,12 @@ blockquote {
     color: #9CC3D5FF;
 }
 .bground2 h1 {
-    color:  rgb(2, 88, 158);
+    color: rgb(2, 88, 158);
 }
 
 .bground2 {
     background-image: linear-gradient(to bottom,#9CC3D5FF, rgb(217, 228, 233));
-    padding:1em;
+    padding: 1em;
 }
 
 .bground3 {
@@ -45,22 +45,16 @@ blockquote {
 }
 
 .container {
-    max-width: 60em; /*960px = fartölvur*/
-    margin: 0 auto; /* top+bottom og left+right */
+    margin: 0; /* top+bottom og left+right */
     padding: 0;
 }
 
 .pad {
-    padding-top: 7.8em;
-}
-
-.alignC {
-    padding-right: 2.5em;
-    white-space: nowrap;
+    margin-bottom: 2em;
 }
 
 .svg {
-    padding-top: 4em;
+    padding-top: 2em;
 }
 
 .topbutt  {
@@ -79,27 +73,25 @@ blockquote {
 /* grid */
 .col-2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.column-2 {
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
 
 .col-3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.col-4 {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-.gap-4 {
-    grid-gap: 4em
+    grid-template-columns: 1fr;
 }
 
-.headcolor h1 {
-    margin: 2em 0 1em 0
+.gap-4 {
+    grid-gap: 1em;
 }
 
 .headcolor p {
-    text-align: right;
+    text-align: left;
 }
 
 .headcolor h1 {
@@ -136,19 +128,22 @@ blockquote {
 .innermenu {
     display: flex;
     flex-flow: column;
-    margin-left: 12em;
-    margin-top: 2em;
-    margin-bottom: -5em;
-    padding-bottom: 6em;
-    padding-left: 10em;
 }
+
+.alignC {
+    padding-left: 1.5em;
+    text-align: left;
+    margin-top: 0;
+    vertical-align: center;
+}
+
 
 .innermenu a {
     border-bottom: 1px solid #9CC3D5FF;
     text-decoration: none;
     color: #9CC3D5FF;
     padding: 0.5em 1em;
-    text-align: right;
+    text-align: left;
 }
 
 .innermenu a:hover,
@@ -168,4 +163,115 @@ blockquote {
 .copy {
     color: #9CC3D5FF;
     text-align: center;
+}
+
+.gluggi {
+    width: 100%;
+
+}
+
+.imgsize {
+    width: 100%;
+    height: 180
+}
+
+.imgsize2 {
+    width: 100%;
+    height: 70;
+}
+
+.kort {
+    width: 50%;
+    height: 100;
+}
+
+@media screen and (min-width: 60em) {
+    .container {
+        max-width: 60em; /*960px = fartölvur*/
+        margin: 0 auto; /* top+bottom og left+right */
+        padding: 0;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .col-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .col-4 {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .gap-4 {
+        grid-gap: 4em;
+    }
+
+
+    .innermenu {
+        display: flex;
+        flex-flow: column;
+        margin-left: 12em;
+        margin-top: 2em;
+        margin-bottom: -5em;
+        padding-bottom: 6em;
+        padding-left: 10em;
+    }
+
+    .pad {
+        padding-top: 7.8em;
+    }
+
+    .headcolor p {
+        text-align: right;
+    }
+
+    .alignC {
+        padding-right: 1em;
+        white-space: nowrap;
+    }
+
+    .svg {
+        padding-top:4em;
+        padding-right: 1em;
+    }
+
+    .gluggi {
+        width: 100%;
+        height: 270px;
+    }
+
+    .imgsize {
+        width: 100%;
+        height: 200;
+    }
+
+    .imgsize2 {
+        width: 100%;
+        height: 90;
+    }
+
+    .headcolor h1 {
+        margin: 2em 0 1em 0
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .gluggi {
+        width: 100%;
+        height: 200x;
+    }
+}
+
+@media screen and (min-width: 37.5em) {
+    .gluggi {
+        width: 100%;
+        height: 270px;
+    }
+}
+
+@media screen and (min-width: 30em) {
+    
 }
