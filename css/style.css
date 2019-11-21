@@ -22,10 +22,12 @@ blockquote {
 
 .headcolor, .footcolor {
     color: #fff;
+    padding: 1em;
 }
 
 .h4color h4 {
     color: #9CC3D5FF;
+    padding: 0.5em;
 }
 .bground2 h1 {
     color: rgb(2, 88, 158);
@@ -46,7 +48,6 @@ blockquote {
 
 .container {
     margin: 0; /* top+bottom og left+right */
-    padding: 0;
 }
 
 .pad {
@@ -184,6 +185,11 @@ blockquote {
     width: 50%;
     height: 100;
 }
+
+.footnav {
+    padding-left: 1em;
+}
+
 
 @media screen and (min-width: 60em) {
     .container {
