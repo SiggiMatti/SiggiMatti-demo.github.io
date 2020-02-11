@@ -1,5 +1,5 @@
-# SiggiMatti-demo.github.io
-# 2019 haust
+## SiggiMatti.github.io
+## 2019 haust
 ### Verkefni
 
 1. [Verkefni 1 - HTML & CSS](2019/verkefni_1)
