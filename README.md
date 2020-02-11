@@ -2,7 +2,7 @@
 # 2019 haust
 ### Verkefni
 
-1. [Verkefni 1 - HTML & CSS](2019/verkefni_1/index.html)
+1. [Verkefni 1 - HTML & CSS](2019/verkefni_1)
 2. [Verkefni 2 - Box módelið](2019/verkefni_2/)
     * [Verkefni 2.1 og 2.2](2019/verkefni_2/verkefni-21)
     * [Verkefni 2.3](2019/verkefni_2/verkefni-23)
