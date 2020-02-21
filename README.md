@@ -13,4 +13,4 @@
     * [Verkefni 3 - Gróður](verkefni_3/Grodur)
     * [Verkefni 3 - Litir](verkefni_3/Litir)
     * [Verkefni 3 - Verslun](verkefni_3/Verslun)
-4. [Verkefni 4 - uppsetning](verkefni-4/index.html)
+4. [Verkefni 4 - uppsetning](2019/index.html)
